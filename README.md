@@ -40,6 +40,7 @@ Using violin plots, we are also able to infer whether certain features are corre
 To minimize clutter in our visualizations, we divide the features into three batches of ten features and produce separate plots for them.
 
 **Task 6: Using Joint Plots for Feature Comparison **
+
 Joint plots come in handy to illustrate the relationship between two features. 
 
 We will use seaborn's jointplot() method to draw a scatter plot with marginal histograms and kernel density fits. We can examine the relationship between any two features using the Pearson correlation coefficient of the regression through our scatter plot.
